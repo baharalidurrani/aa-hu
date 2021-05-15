@@ -1,0 +1,17 @@
+{
+  "name": "aa-hu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "tsnd src/main.ts",
+    "build": "rm -rf dist && tsc",
+    "serve": "node dist/main.js",
+    "test": "main.spec.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.6"
+  }
+}
